@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
 <head>
 <style>
-
-p.intro {
-  background-color:black;
-  color:white;
-  border:1px solid grey;
-  padding:10px;
-  margin:30px;
-  font-size:150%;
+h1
+{
+         text-align:center;
+}
+img
+{        margin:auto;
+         position:absolute;
+         top:4;bottom:0;left:0;right:0;
 }
 </style>
 </head>
 <body>
+<h1 > "Is this Fake Animation ?"</h1>
+<img id="girlfire" style="width:600px" "text-align:center">
 
-<h1>This is a heading</h1>
+<button onclick='document.getElementById("girlfire").src="GF-1.gif"'> Start Firing </button>
+<button onclick='document.getElementById("girlfire").src="GF-2.png"'> Stop Firing </button>
 
-<p class="intro">This is a paragraph.</p>
-<p class="intro">This is a paragraph.</p>
-<p class="intro">This is a paragraph.</p>
 
 </body>
 </html>
